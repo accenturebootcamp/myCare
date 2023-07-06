@@ -8,7 +8,7 @@ function KeyPad() {
     const navigate = useNavigate();
     // change route
     const routeChange = () => {
-        navigate("/");
+        navigate("/ClinicGp");
     }
     const back = () => {
         // goes to Add Service

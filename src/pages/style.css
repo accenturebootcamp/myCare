@@ -664,3 +664,258 @@
   top: 160px;
   white-space: nowrap;
 }
+
+/* GP Clinic */
+
+.booking-GP-clinic {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.booking-GP-clinic .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 852px;
+  position: relative;
+  width: 390px;
+}
+
+.booking-GP-clinic .overlap {
+  background-color: #56cb99;
+  height: 673px;
+  left: 0;
+  position: absolute;
+  top: 179px;
+  width: 393px;
+}
+
+.booking-GP-clinic .overlap-group {
+  border-radius: 32px;
+  height: 55px;
+  left: 88px;
+  position: absolute;
+  top: 42px;
+  width: 217px;
+}
+
+.booking-GP-clinic .rectangle {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #00000040;
+  border-radius: 32px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 55px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 217px;
+}
+
+.booking-GP-clinic .text-wrapper {
+  color: #000000;
+  font-family: "Lato-Bold", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+}
+
+.booking-GP-clinic .group {
+  height: 132px;
+  left: 20px;
+  position: absolute;
+  top: 130px;
+  width: 314px;
+}
+
+.booking-GP-clinic .overlap-group-2 {
+  height: 132px;
+  position: relative;
+}
+
+.booking-GP-clinic .div-wrapper {
+  height: 132px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 350px;
+}
+
+.booking-GP-clinic .group-wrapper {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 162px;
+}
+
+.booking-GP-clinic .group-2 {
+  background-image: url(./doctor2.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 80px;
+  left: 22px;
+  position: relative;
+  top: 18px;
+  width: 86px;
+  border-radius: 100px;
+
+}
+
+.booking-GP-clinic .group-3 {
+  height: 12px;
+  left: 41px;
+  position: absolute;
+  top: 126px;
+  width: 47px;
+}
+
+.booking-GP-clinic .text-wrapper-2 {
+  color: #000000;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 32px;
+}
+
+.booking-GP-clinic .vector {
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 10px;
+}
+
+.booking-GP-clinic .group-4 {
+  height: 94px;
+  left: 125px;
+  position: absolute;
+  top: 19px;
+  width: 182px;
+}
+
+.booking-GP-clinic .text-wrapper-3 {
+  color: #000000;
+  font-family: "Lato-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 178px;
+}
+
+.booking-GP-clinic .p {
+  color: #000000;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+  /* width: 178px; */
+}
+
+.booking-GP-clinic .p1 {
+  color: #000000;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 92px;
+  width: 178px;
+}
+
+.booking-GP-clinic .overlap-wrapper {
+  height: 132px;
+  left: 20px;
+  position: absolute;
+  top: 308px;
+  width: 314px;
+}
+
+.booking-GP-clinic .group-5 {
+  background-image: url(./doctor1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 80px;
+  left: 22px;
+  position: relative;
+  top: 18px;
+  width: 86px;
+  border-radius: 100px;
+}
+
+.booking-GP-clinic .h-1 {
+  color: #000000;
+  font-family: "Lato-Bold", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  left: 133px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  white-space: nowrap;
+}
+
+.booking-GP-clinic .text-wrapper-4 {
+  color: #6d6d6d;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 109px;
+  white-space: nowrap;
+}
+
+.booking-GP-clinic .arrow-wrapper {
+  background-color: #56cb99;
+  border-radius: 28px;
+  height: 56px;
+  left: 12px;
+  position: absolute;
+  top: 43px;
+  width: 56px;
+}
+
+.booking-GP-clinic .arrow {
+  height: 29px;
+  left: 15px;
+  position: absolute;
+  top: 12px;
+  width: 28px;
+}
+
+.star {
+  height: 29px;
+  left: 15px;
+  position: absolute;
+  top: 118px;
+  width: 28px;
+}
