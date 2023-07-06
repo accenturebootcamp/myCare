@@ -3,6 +3,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home.js"
 import Service from "./pages/Services.js";
 import AddService from "./pages/AddService.js";
+
+import Caregivers from "./pages/Caregivers.js";
+import HomeServices from "./pages/HomeServices.js";
+import Maxadams from "./pages/Maxadams.js";
+import CaregiverBooked from "./pages/CaregiverBooked.js";
+
 import BookingLocation from "./pages/BookingLocation.js";
 import KeyPad from "./pages/KeyPad.js";
 import KeyPad3 from "./pages/KeyPad3.js";
@@ -30,6 +36,7 @@ import EditMedicine from "./pages/EditMedicine.js";
 import AspirinEdit from "./pages/AspirinEdit.js";
 
 
+
 function App() {
   
   return (
@@ -38,8 +45,14 @@ function App() {
           <div>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/Caregivers" element={<Caregivers />} />
               <Route path="/Services" element={<Service />} />
               <Route path="/AddService" element={<AddService />} />
+
+              <Route path="/HomeServices" element={<HomeServices />} />
+              <Route path="/Maxadams" element={<Maxadams />} />
+              <Route path="/CaregiverBooked" element={<CaregiverBooked />} />
+
               <Route path="/BookingLocation" element={<BookingLocation />} />
               <Route path="/KeyPad" element={<KeyPad />} />
               <Route path="/KeyPad3" element={<KeyPad3 />} />

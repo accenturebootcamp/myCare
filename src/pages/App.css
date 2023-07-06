@@ -37,7 +37,6 @@
   }
 }
 
-
 .home-page {
   background-color: #ffffff;
   display: flex;
@@ -55,14 +54,14 @@
 }
 
 .home-page .group {
-  height: 155px;
+  height: 160px;
   left: 213px;
   position: absolute;
-  top: 263px;
+  top: 220px;
   width: 134px;
 }
 
-.home-page .div-2 {
+.home-page .overlap-group {
   background-color: #56cb99;
   border-radius: 10px;
   box-shadow: 0px 4px 4px #00000040;
@@ -71,6 +70,19 @@
   position: absolute;
   top: 0;
   width: 132px;
+
+}
+
+.home-page .chatbotButton {
+  background-color: #56cb99;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 132px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 292px;
+
 }
 
 .home-page .img {
@@ -83,15 +95,15 @@
 
 .home-page .text-wrapper {
   color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  left: 24px;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  left: 31px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 136px;
+  top: 140px;
   white-space: nowrap;
 }
 
@@ -102,7 +114,7 @@
   height: 132px;
   left: 53px;
   position: absolute;
-  top: 443px;
+  top: 400px;
   width: 132px;
 }
 
@@ -114,38 +126,40 @@
   width: 90px;
 }
 
-.home-page .overlap-group {
+.home-page .edit-calendar-black-wrapper {
+  background-color: #56cb99;
   border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
   height: 132px;
   left: 213px;
   position: absolute;
-  top: 443px;
+  top: 400px;
   width: 132px;
 }
 
 .home-page .text-wrapper-2 {
   color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  left: 59px;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  left: 70px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 579px;
+  top: 540px;
   white-space: nowrap;
 }
 
 .home-page .text-wrapper-3 {
   color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  left: 249px;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  left: 242px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 579px;
+  top: 540px;
   white-space: nowrap;
 }
 
@@ -154,73 +168,73 @@
   border-radius: 10px;
   box-shadow: 0px 4px 4px #00000040;
   height: 132px;
-  left: 53px;
+  left: 54px;
   position: absolute;
-  top: 637px;
+  top: 590px;
   width: 292px;
 }
 
 .home-page .question-answer {
   height: 90px;
-  left: 102px;
+  left: 101px;
   position: absolute;
-  top: 21px;
+  top: 33px;
   width: 90px;
 }
 
 .home-page .text-wrapper-4 {
   color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  left: 189px;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  left: 176px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 778px;
+  top: 730px;
   white-space: nowrap;
 }
 
 .home-page .h-1 {
   color: #000000;
-  font-family: "Inter", Helvetica;
+  font-family: "Lato-Bold", Helvetica;
   font-size: 35px;
   font-weight: 700;
-  left: 116px;
+  left: 110px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 76px;
+  top: 20px;
   white-space: nowrap;
 }
 
 .home-page .what-would-you-like {
   color: #000000;
-  font-family: "Inter", Helvetica;
+  font-family: "Lato-SemiBold", Helvetica;
   font-size: 28px;
-  font-weight: 400;
-  left: 60px;
+  font-weight: 600;
+  left: 66px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 156px;
+  top: 80px;
 }
 
 .home-page .group-2 {
-  height: 155px;
+  height: 160px;
   left: 53px;
   position: absolute;
-  top: 263px;
+  top: 220px;
   width: 134px;
 }
 
 .home-page .text-wrapper-5 {
   color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  left: 41px;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  left: 31px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -228,3 +242,45 @@
   top: 136px;
   white-space: nowrap;
 }
+
+
+
+.box {
+  background-color: transparent;
+  height: 68px;
+  right: 40px;
+  position: fixed;
+  top: 30px;
+  width: 77px;
+}
+
+.box .frame-wrapper {
+  border: 0px none;
+  height: 68px;
+  width: 77px;
+}
+
+
+.box .frame {
+  height: 68px;
+  right: 40px;
+  position: fixed;
+  top: 30px;
+  width: 77px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
