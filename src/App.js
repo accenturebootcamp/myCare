@@ -25,9 +25,9 @@ import Types from "./pages/Types.js";
 import EventsDisplay from "./pages/EventsDisplay.js";
 import EventGolf from "./pages/EventGolf.js";
 import EventCaregiver from "./pages/EventCaregiver.js";
-
-
-
+import Medicine from "./pages/Medicine.js";
+import EditMedicine from "./pages/EditMedicine.js";
+import AspirinEdit from "./pages/AspirinEdit.js";
 
 
 function App() {
@@ -61,11 +61,9 @@ function App() {
               <Route path="/EventsDisplay" element={<EventsDisplay />} />
               <Route path="/EventGolf" element={<EventGolf />} />
               <Route path="/EventCaregiver" element={<EventCaregiver />} />
-
-
-
-
-
+              <Route path="/Medicine" element={<Medicine />} />
+              <Route path="/EditMedicine" element={<EditMedicine />} />
+              <Route path="/AspirinEdit" element={<AspirinEdit />} />
 
 
             </Routes>
