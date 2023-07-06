@@ -24,6 +24,7 @@ import EventLocation from "./pages/EventLocation.js";
 import Types from "./pages/Types.js";
 import EventsDisplay from "./pages/EventsDisplay.js";
 import EventGolf from "./pages/EventGolf.js";
+import EventCaregiver from "./pages/EventCaregiver.js";
 
 
 
@@ -59,6 +60,8 @@ function App() {
               <Route path="/Types" element={<Types />} />
               <Route path="/EventsDisplay" element={<EventsDisplay />} />
               <Route path="/EventGolf" element={<EventGolf />} />
+              <Route path="/EventCaregiver" element={<EventCaregiver />} />
+
 
 
 

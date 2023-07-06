@@ -19,7 +19,7 @@ function EventsDisplay() {
     }
     const back = () => {
         // goes to Add Service
-        navigate("/KeyPadEvent");
+        navigate("/Types");
     }
     return (
         <div className="events">

@@ -8,17 +8,12 @@ function EventGolf() {
     // hook change location
     const navigate = useNavigate();
     // change route
-    const keyPad = () => {
-        // goes to Add Service
-        navigate("/KeyPadEvent");
-    }
-    const code = () => {
-        // goes to Add Service
-        navigate("/ClinicGp");
+    const routeChange = () => {
+        navigate("/EventCaregiver");
     }
     const back = () => {
         // goes to Add Service
-        navigate("/AddService");
+        navigate("/EventsDisplay");
     }
     return (
         <div className="event-golf">
@@ -49,14 +44,14 @@ function EventGolf() {
                             <span className="text-wrapper-2">Time:</span>
                             <span className="text-wrapper-3"> SAT, JUL 8 AT 1PM</span>
                         </p>
-                        <div className="overlap-group">
+                        <div className="overlap-group" onClick={routeChange}>
                             <div className="text-wrapper-5">Confirm</div>
                         </div>
                     </div>
                 </div>
-                <div className="arrow-wrapper">
-                    <img className="arrow" alt="Arrow" src="arrow-5.svg" />
-                </div>
+                <button className="arrow-overlap" onClick={back}>
+                    <img src={arrow} className="arrow" alt="arrow" />
+                </button>
                 <h1 className="h-1">Event</h1>
             </div>
         </div>
