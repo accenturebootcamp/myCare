@@ -29,7 +29,7 @@ function Home() {
                
                         <main>
                             <div className="home-page">
-                                <button onClick={signOut}>Sign out</button>
+                                
                                 <div className="div">
                                     <div className="group">
                                         <div className="div-2">
