@@ -12,7 +12,7 @@ function Medicine() {
     }
     const back = () => {
         // goes to Add Service
-        navigate("/EventsDisplay");
+        navigate("/AddService");
     }
     return (
         <div className="medicine">
