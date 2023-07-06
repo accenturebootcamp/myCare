@@ -7,9 +7,9 @@ function BookingLocation() {
     // hook change location
     const navigate = useNavigate();
     // change route
-    const routeChange = () => {
+    const keyPad = () => {
         // goes to Add Service
-        navigate("/");
+        navigate("/KeyPad");
     }
     const back = () => {
         // goes to Add Service
@@ -19,10 +19,10 @@ function BookingLocation() {
         <div className="booking-location">
             <div className="div">
                 <h1 className="text-wrapper">GP Clinic</h1>
-                <div className="overlap">
+                <button className="overlap" onClick={keyPad}>
                     <div className="rectangle" />
                     <div className="text-wrapper-2">Post Code</div>
-                </div>
+                </button>
                 <div className="overlap-group">
                     <div className="text-wrapper-3">Near by</div>
                 </div>
