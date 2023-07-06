@@ -7,7 +7,7 @@ export const Popup = ({ text, closePopup }) => {
     // change route
     const routeChange = () => {
         // goes to Add Service
-        navigate("/KeyPad");
+        navigate("/SelectDate");
     }
     return (
         <div className="popup-container">

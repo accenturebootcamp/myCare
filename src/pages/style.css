@@ -69,7 +69,7 @@
   height: 56px;
   left: 12px;
   position: absolute;
-  top: 60px;
+  top: 30px;
   width: 56px;
 }
 
@@ -685,10 +685,10 @@
 
 .booking-GP-clinic .overlap {
   background-color: #56cb99;
-  height: 673px;
+  height: 714px;
   left: 0;
   position: absolute;
-  top: 179px;
+  top: 136px;
   width: 393px;
 }
 
@@ -901,7 +901,7 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 50px;
+  top: 20px;
   white-space: nowrap;
 }
 
@@ -915,7 +915,7 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 50px;
+  top: 20px;
   white-space: nowrap;
 }
 
@@ -929,7 +929,7 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 109px;
+  top: 75px;
   white-space: nowrap;
 }
 
@@ -943,7 +943,7 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 109px;
+  top: 75px;
   white-space: nowrap;
 }
 
@@ -973,6 +973,7 @@
   width: 28px;
 }
 
+/* pop up */
 .popup-container {
   position: fixed;
   width: 100%;
@@ -1046,3 +1047,219 @@
     line-height: normal;
     text-align: center;
   }
+
+  /* Select Time */
+  .boooking-select-time {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .boooking-select-time .div {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 852px;
+    position: relative;
+    width: 393px;
+  }
+  
+  .boooking-select-time .text-wrapper {
+    color: #000000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    left: 159px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    white-space: nowrap;
+  }
+  
+  .boooking-select-time .overlap-group {
+    background-color: #56cb99;
+    height: 714px;
+    left: 0;
+    position: absolute;
+    top: 136px;
+    width: 393px;
+  }
+  
+  .boooking-select-time .group {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 69px;
+    left: 40px;
+    position: absolute;
+    top: 79px;
+    width: 314px;
+  }
+  
+  .boooking-select-time .div-wrapper {
+    height: 32px;
+    left: 108px;
+    position: relative;
+    top: 18px;
+    width: 100px;
+  }
+  
+  .boooking-select-time .text-wrapper-2 {
+    color: #000000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 98px;
+  }
+  
+  .boooking-select-time .overlap {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 69px;
+    left: 40px;
+    position: absolute;
+    top: 269px;
+    width: 314px;
+  }
+  
+  .boooking-select-time .text-wrapper-3 {
+    color: #000000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    top: 19px;
+  }
+  
+  .boooking-select-time .overlap-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 69px;
+    left: 40px;
+    position: absolute;
+    top: 358px;
+    width: 314px;
+  }
+  
+  .boooking-select-time .overlap-3 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 69px;
+    left: 40px;
+    position: absolute;
+    top: 453px;
+    width: 314px;
+  }
+  
+  .boooking-select-time .text-wrapper-4 {
+    color: #000000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    top: 19px;
+  }
+  
+  .boooking-select-time .overlap-4 {
+    border-radius: 10px;
+    height: 69px;
+    left: 40px;
+    position: absolute;
+    top: 174px;
+    width: 314px;
+  }
+  
+  .boooking-select-time .group-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 69px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 314px;
+  }
+  
+  .boooking-select-time .text-wrapper-5 {
+    color: #000000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    top: 19px;
+  }
+  
+  .boooking-select-time .text-wrapper-6 {
+    color: #000000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    top: 19px;
+  }
+  
+  .boooking-select-time .p {
+    color: #6d6d6d;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 93px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 67px;
+    white-space: nowrap;
+  }
+  
+  .boooking-select-time .arrow-wrapper {
+    background-color: #56cb99;
+    border-radius: 28px;
+    height: 56px;
+    left: 7px;
+    position: absolute;
+    top: 13px;
+    width: 56px;
+  }
+  
+  .boooking-select-time .arrow {
+    height: 29px;
+    left: 14px;
+    position: absolute;
+    top: 13px;
+    width: 28px;
+  }
+  
