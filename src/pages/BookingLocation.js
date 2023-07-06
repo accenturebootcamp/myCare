@@ -11,6 +11,10 @@ function BookingLocation() {
         // goes to Add Service
         navigate("/KeyPad");
     }
+    const code = () => {
+        // goes to Add Service
+        navigate("/ClinicGp");
+    }
     const back = () => {
         // goes to Add Service
         navigate("/AddService");
@@ -23,9 +27,9 @@ function BookingLocation() {
                     <div className="rectangle" />
                     <div className="text-wrapper-2">Post Code</div>
                 </button>
-                <div className="overlap-group">
+                <button className="overlap-group" onClick={code}>
                     <div className="text-wrapper-3">Near by</div>
-                </div>
+                </button>
                 <div>
                     <p className="p">Click how you wish to find a GP clinic</p>
                 </div>

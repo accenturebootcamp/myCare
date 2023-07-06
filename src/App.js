@@ -9,12 +9,22 @@ import KeyPad3 from "./pages/KeyPad3.js";
 import KeyPad30 from "./pages/KeyPad30.js";
 import KeyPad300 from "./pages/KeyPad300.js";
 import KeyPad3000 from "./pages/KeyPad3000.js";
+import KeyPadEvent from "./pages/KeyPadEvent.js";
+import KeyPad3Event from "./pages/KeyPad3Event.js";
+import KeyPad30Event from "./pages/KeyPad30Event.js";
+import KeyPad300Event from "./pages/KeyPad300Event.js";
+import KeyPad3000Event from "./pages/KeyPad3000Event.js";
 import ClinicGp from "./pages/ClinicGp.js";
 import GpDoctor from "./pages/GpDoctor.js";
 import SelectDate from "./pages/SelectDate.js";
 import ServicesGP from "./pages/ServicesGP.js";
 import SelectTime from "./pages/SelectTime.js";
 import Chatbot from "./pages/Chatbot.js";
+import EventLocation from "./pages/EventLocation.js";
+import Types from "./pages/Types.js";
+import EventsDisplay from "./pages/EventsDisplay.js";
+
+
 
 
 function App() {
@@ -33,11 +43,22 @@ function App() {
               <Route path="/KeyPad30" element={<KeyPad30 />} />
               <Route path="/KeyPad300" element={<KeyPad300 />} />
               <Route path="/KeyPad3000" element={<KeyPad3000 />} />
+              <Route path="/KeyPadEvent" element={<KeyPadEvent />} />
+              <Route path="/KeyPad3Event" element={<KeyPad3Event />} />
+              <Route path="/KeyPad30Event" element={<KeyPad30Event />} />
+              <Route path="/KeyPad300Event" element={<KeyPad300Event />} />
+              <Route path="/KeyPad3000Event" element={<KeyPad3000Event />} />
               <Route path="/ClinicGp" element={<ClinicGp />} />
               <Route path="/GpDoctor" element={<GpDoctor />} />
               <Route path="/SelectDate" element={<SelectDate />} />
               <Route path="/SelectTime" element={<SelectTime />} />
               <Route path="/ServicesGP" element={<ServicesGP />} />
+              <Route path="/EventLocation" element={<EventLocation />} />
+              <Route path="/Types" element={<Types />} />
+              <Route path="/EventsDisplay" element={<EventsDisplay />} />
+
+
+
 
 
             </Routes>

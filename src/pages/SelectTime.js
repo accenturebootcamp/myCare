@@ -9,7 +9,7 @@ function SelectTime() {
     const navigate = useNavigate();
     // change route
     const routeChange = () => {
-        navigate("/ClinicGp");
+        navigate("/EventLocation");
     }
     const back = () => {
         // goes to Add Service
@@ -31,7 +31,7 @@ function SelectTime() {
                             <div className="text-wrapper-2">3:00pm</div>
                         </div>
                     </div>
-                    <div className="group-2">
+                    <div className="group-2" onClick={routeChange}>
                         <div className="div-wrapper">
                             <div className="text-wrapper-2">4:00pm</div>
                         </div>

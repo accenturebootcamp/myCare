@@ -21,6 +21,10 @@ function Home() {
         // goes to Add Service
         navigate("/Services");
     }
+    const events = () => {
+        // goes to Add Service
+        navigate("/EventLocation");
+    }
     return (
         <div className="App">
 
@@ -55,7 +59,7 @@ function Home() {
                                         What would you like <br />
                                         to do today?
                                     </p>
-                                    <div className="group-2">
+                                    <div onClick={events} className="group-2">
                                         <div className="div-2">
                                             <img className="img-2" alt="Celebration black" src={celebration} />
                                         </div>
