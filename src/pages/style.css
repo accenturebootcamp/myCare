@@ -1,0 +1,268 @@
+/* Book service page */
+
+.booking-service-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.booking-service-page .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 852px;
+  position: relative;
+  width: 393px;
+}
+
+.booking-service-page .text-wrapper {
+  color: #000000;
+  font-family: "Lato-Bold", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  left: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 93px;
+  white-space: nowrap;
+}
+
+.booking-service-page .overlap-group {
+  border-radius: 10px;
+  height: 58px;
+  left: 29px;
+  position: absolute;
+  top: 231px;
+  width: 336px;
+}
+
+.booking-service-page .rectangle {
+  background-color: #56cb99;
+  border-color: #56cb99;
+  border-radius: 10px;
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 336px;
+}
+
+.booking-service-page .text-wrapper-2 {
+  color: #000000;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  left: 94px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+}
+
+.booking-service-page .overlap {
+  background-color: #56cb99;
+  border-radius: 28px;
+  height: 56px;
+  left: 12px;
+  position: absolute;
+  top: 105px;
+  width: 56px;
+}
+
+.booking-service-page .arrow {
+  height: 29px;
+  left: 14px;
+  position: absolute;
+  top: 13px;
+  width: 28px;
+}
+
+
+/* Book Add service page */
+
+.dashboard {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dashboard .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 852px;
+  position: relative;
+  width: 393px;
+}
+
+.dashboard .overlap {
+  background-color: #56cb99;
+  border-color: #56cb99;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 78px;
+  left: 29px;
+  position: absolute;
+  top: 210px;
+  width: 336px;
+}
+
+.dashboard .text-wrapper {
+  color: #000000;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+}
+
+.dashboard .overlap-group {
+  background-color: #56cb99;
+  border-color: #56cb99;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 86px;
+  left: 25px;
+  position: absolute;
+  top: 452px;
+  width: 344px;
+}
+
+.dashboard .div-wrapper {
+  background-color: #56cb99;
+  border-color: #56cb99;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 86px;
+  left: 25px;
+  position: absolute;
+  top: 452px;
+  width: 344px;
+}
+
+.dashboard .text-wrapper-2 {
+  color: #000000;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+}
+
+.dashboard .div-wrapper {
+  background-color: #56cb99;
+  border-color: #56cb99;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 86px;
+  left: 25px;
+  position: absolute;
+  top: 694px;
+  width: 344px;
+}
+
+.dashboard .text-wrapper-3 {
+  color: #000000;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+}
+
+.dashboard .overlap-2 {
+  background-color: #56cb99;
+  border-color: #56cb99;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 86px;
+  left: 25px;
+  position: absolute;
+  top: 573px;
+  width: 344px;
+}
+
+.dashboard .text-wrapper-4 {
+  color: #000000;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+}
+
+.dashboard .overlap-3 {
+  background-color: #56cb99;
+  border-color: #56cb99;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 86px;
+  left: 25px;
+  position: absolute;
+  top: 331px;
+  width: 344px;
+}
+
+.dashboard .text-wrapper-5 {
+  color: #000000;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  left: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+}
+
+.dashboard .h-1 {
+  color: #000000;
+  font-family: "Lato-Bold", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  left: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 90px;
+  white-space: nowrap;
+}
+
+.dashboard .arrow-wrapper {
+  background-color: #56cb99;
+  border-radius: 28px;
+  height: 56px;
+  left: 10px;
+  position: absolute;
+  top: 105px;
+  width: 56px;
+}
+
+.dashboard .arrow {
+  height: 29px;
+  left: 14px;
+  position: absolute;
+  top: 13px;
+  width: 28px;
+}
