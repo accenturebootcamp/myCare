@@ -24,6 +24,7 @@ function Services() {
         <div className="booking-service-page">
             <div className="div">
                 <h1 className="text-wrapper">Services</h1>
+                <div><p className="p">Click to add a Healthcare service to book for</p></div>
                 <div className="overlap-group">
                     <button className="rectangle" onClick={routeChange}/>
                     <img src={plus} className="arrow" alt="plus" />

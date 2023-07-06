@@ -4,13 +4,11 @@ import { useNavigate } from "react-router-dom";
 import "./style.css";
 
 function KeyPad() {
-    var postcode;
     // hook change location
     const navigate = useNavigate();
     // change route
     const routeChange = () => {
         // goes to Add Service
-
         navigate("/KeyPad3");
     }
     const back = () => {
@@ -24,6 +22,7 @@ function KeyPad() {
                     Find GP Clinic by <br />
                     Post Code
                 </h1>
+                <div><p className="p">Enter post code with the key pad <br/>by tapping the number</p></div>
                 <button className="text-field"></button>
                 <button className="overlap">
                     <div className="text-wrapper">Confirm</div>

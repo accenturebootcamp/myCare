@@ -21,6 +21,7 @@ function KeyPad() {
                     Find GP Clinic by <br />
                     Post Code
                 </h1>
+                <div><p className="p">Enter post code with the key pad <br/>by tapping the number</p></div>
                 <button className="text-field"><div className="text">30</div></button>
                 <button className="overlap">
                     <div className="text-wrapper">Confirm</div>

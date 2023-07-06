@@ -18,6 +18,7 @@ function AddService() {
     return (
         <div className="dashboard">
             <div className="div">
+                <div><p className="p">Click on a Healthcare service to book for</p></div>
                 <button className="overlap" onClick={routeChange}>
                     <div className="text-wrapper">General Practitioner</div>
                 </button>

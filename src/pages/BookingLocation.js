@@ -13,7 +13,7 @@ function BookingLocation() {
     }
     const back = () => {
         // goes to Add Service
-        navigate("/Services");
+        navigate("/AddService");
     }
     return (
         <div className="booking-location">
@@ -26,7 +26,9 @@ function BookingLocation() {
                 <div className="overlap-group">
                     <div className="text-wrapper-3">Near by</div>
                 </div>
-                <p className="p">Click how you wish to find a GP clinic</p>
+                <div>
+                    <p className="p">Click how you wish to find a GP clinic</p>
+                </div>
                 <button className="arrow-overlap" onClick={back}>
                     <img src={arrow} className="arrow" alt="arrow" />
                 </button>

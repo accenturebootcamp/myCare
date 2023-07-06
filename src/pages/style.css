@@ -25,7 +25,7 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 93px;
+  top: 50px;
   white-space: nowrap;
 }
 
@@ -69,7 +69,7 @@
   height: 56px;
   left: 12px;
   position: absolute;
-  top: 105px;
+  top: 60px;
   width: 56px;
 }
 
@@ -246,7 +246,7 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 90px;
+  top: 50px;
   white-space: nowrap;
 }
 
@@ -277,7 +277,7 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 91px;
+  top: 50px;
   white-space: nowrap;
 }
 
@@ -286,7 +286,7 @@
   height: 200px;
   left: 74px;
   position: absolute;
-  top: 323px;
+  top: 280px;
   width: 246px;
 }
 
@@ -319,7 +319,7 @@
   height: 200px;
   left: 74px;
   position: absolute;
-  top: 586px;
+  top: 556px;
   width: 246px;
 }
 
@@ -339,14 +339,14 @@
 .booking-location .p {
   color: #6d6d6d;
   font-family: "Lato-Regular", Helvetica;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  left: 67px;
+  /* left: 67px; */
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 280px;
+  top: 200px;
   white-space: nowrap;
 }
 
@@ -377,7 +377,7 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 94px;
+  top: 50px;
 }
 
 .key-pad .rectangle {
@@ -406,12 +406,12 @@
   font-family: "Lato-SemiBold", Helvetica;
   font-size: 28px;
   font-weight: 600;
-  left: 23px;
+  left: 20px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 8px;
+  top: 9px;
 }
 
 .key-pad .overlap-group {
@@ -647,6 +647,20 @@
   height: 68px;
   left: 48px;
   position: absolute;
-  top: 211px;
+  top: 230px;
   width: 295px;
+}
+
+.p {
+  color: #6d6d6d;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  /* left: 67px; */
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 160px;
+  white-space: nowrap;
 }
