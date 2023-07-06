@@ -4,18 +4,18 @@ import { useNavigate } from "react-router-dom";
 import "./style.css";
 
 function SelectDate() {
-    // hook change location
-    const navigate = useNavigate();
-    // change route
-    const routeChange = () => {
-        navigate("/ClinicGp");
-    }
-    const back = () => {
-        // goes to Add Service
-        navigate("/GpDoctor");
-    }
+  // hook change location
+  const navigate = useNavigate();
+  // change route
+  const routeChange = () => {
+    navigate("/SelectTime");
+  }
+  const back = () => {
+    // goes to Add Service
+    navigate("/GpDoctor");
+  }
   return (
-    <div className="boooking-select-time">
+    <div className="boooking-select-date">
       <div className="div">
         <h1 className="text-wrapper">Date</h1>
         <div className="overlap-group">
@@ -27,7 +27,7 @@ function SelectDate() {
           <div className="overlap">
             <div className="text-wrapper-3">12th July</div>
           </div>
-          <div className="overlap-2">
+          <div className="overlap-2" onClick={routeChange}>
             <div className="text-wrapper-3">14th July</div>
           </div>
           <div className="overlap-3">
@@ -41,8 +41,8 @@ function SelectDate() {
         </div>
         <p className="p">Select a date for appointment</p>
         <button className="arrow-overlap" onClick={back}>
-                    <img src={arrow} className="arrow" alt="arrow" />
-                </button>
+          <img src={arrow} className="arrow" alt="arrow" />
+        </button>
       </div>
     </div>
   );
