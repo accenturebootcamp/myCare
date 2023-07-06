@@ -39,7 +39,7 @@ function SelectDate() {
           </div>
           <div className="text-wrapper-6">Dr. Denis Melb</div>
         </div>
-        <p className="p">Select a date for appointment</p>
+        <p className="p">Select a date for appointment <br/> at Melbourne City Medical Centre</p>
         <button className="arrow-overlap" onClick={back}>
           <img src={arrow} className="arrow" alt="arrow" />
         </button>

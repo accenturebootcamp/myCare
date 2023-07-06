@@ -8,7 +8,7 @@ export const PopUpBooking = ({ text, closePopup }) => {
     // change route
     const routeChange = () => {
         // goes to Add Service
-        navigate("/SelectTime");
+        navigate("/ServicesGP");
     }
     return (
         <div className="popup-container">

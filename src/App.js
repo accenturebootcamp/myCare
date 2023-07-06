@@ -12,6 +12,7 @@ import KeyPad3000 from "./pages/KeyPad3000.js";
 import ClinicGp from "./pages/ClinicGp.js";
 import GpDoctor from "./pages/GpDoctor.js";
 import SelectDate from "./pages/SelectDate.js";
+import ServicesGP from "./pages/ServicesGP.js";
 import SelectTime from "./pages/SelectTime.js";
 
 
@@ -36,6 +37,8 @@ function App() {
               <Route path="/GpDoctor" element={<GpDoctor />} />
               <Route path="/SelectDate" element={<SelectDate />} />
               <Route path="/SelectTime" element={<SelectTime />} />
+              <Route path="/ServicesGP" element={<ServicesGP />} />
+
 
             </Routes>
           </div>

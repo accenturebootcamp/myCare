@@ -81,6 +81,46 @@
   width: 28px;
 }
 
+.overlap-icon {
+  border-radius: 10px;
+  height: 132px;
+  left: 30px;
+  position: absolute;
+  top: 350px;
+  width: 132px;
+}
+
+.text-wrapper-3-icon {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 500px;
+  white-space: nowrap;
+}
+
+.div-2 {
+  background-color: #56cb99;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 132px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 132px;
+}
+
+.img-icon {
+  height: 90px;
+  left: 21px;
+  position: absolute;
+  top: 21px;
+  width: 90px;
+}
 
 /* Book Add service page */
 
