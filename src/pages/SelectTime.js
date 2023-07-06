@@ -1,7 +1,8 @@
-import * as React from 'react';
+import React, { useState } from "react";
 import arrow from './arrow.svg';
 import { useNavigate } from "react-router-dom";
 import "./style.css";
+import { PopUpBooking } from "./PopUpBooking";
 
 function SelectTime() {
     // hook change location
@@ -14,6 +15,7 @@ function SelectTime() {
         // goes to Add Service
         navigate("/SelectDate");
     }
+    const [open, setOpen] = useState(false);
     return (
         <div className="boooking-select-time">
             <div className="div">
@@ -34,8 +36,8 @@ function SelectTime() {
                             <div className="text-wrapper-2">4:00pm</div>
                         </div>
                     </div>
-                    <div className="group-3">
-                        <div className="div-wrapper">
+                    <div className="group-3"onClick={() => setOpen(true)}>
+                        <div className="div-wrapper" >
                             <div className="text-wrapper-2">9:30am</div>
                         </div>
                     </div>
@@ -45,6 +47,7 @@ function SelectTime() {
                 <button className="arrow-overlap" onClick={back}>
                     <img src={arrow} className="arrow" alt="arrow" />
                 </button>
+                {open ? <PopUpBooking text="Confirm Booking" closePopup={() => setOpen(false)} /> : null}
             </div>
         </div>
     );

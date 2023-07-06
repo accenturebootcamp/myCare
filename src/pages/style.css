@@ -1008,7 +1008,6 @@
   line-height: normal;
   position: relative;
   text-align: center;
-  top: 15px;
   white-space: nowrap;
   }
 
@@ -1038,6 +1037,42 @@
     right: 10%;
     position: absolute;
     top: 250px;
+    width: 70px;
+    color: #000000;
+    font-family: "Lato-SemiBold", Helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .popup-button-booking{
+    background-color: #56cb99;
+    border-radius: 20px;
+    border-color: #56cb99;
+    height: 50px;
+    left: 10%;
+    position: absolute;
+    top: 275px;
+    width: 70px;
+    color: #000000;
+    font-family: "Lato-SemiBold", Helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .popup-button-right-booking{
+    background-color: #56cb99;
+    border-radius: 20px;
+    border-color: #56cb99;
+    height: 50px;
+    right: 10%;
+    position: absolute;
+    top: 275px;
     width: 70px;
     color: #000000;
     font-family: "Lato-SemiBold", Helvetica;
