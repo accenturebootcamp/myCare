@@ -5,17 +5,17 @@ import star from './star.svg';
 import { useNavigate } from "react-router-dom";
 import "./style.css";
 
-function ClinicGp() {
+function GpDoctor() {
     // hook change location
     const navigate = useNavigate();
     // change route
     const routeChange = () => {
         // goes to Add Service
-        navigate("/GpDoctor");
+        navigate("/BookingLocation");
     }
     const back = () => {
         // goes to Add Service
-        navigate("/KeyPad");
+        navigate("/ClinicGp");
     }
     return (
         <div className="booking-GP-clinic">
@@ -31,7 +31,7 @@ function ClinicGp() {
                                 <div className="overlap-group-2">
                                     <div className="div-wrapper">
                                         <div className="group-wrapper" onClick={routeChange}>
-                                            <div className="group-2" />
+                                            <div className="group-12" />
                                         </div>
                                     </div>
                                     <img src={star} className="star" alt="star" />
@@ -42,12 +42,12 @@ function ClinicGp() {
                                 </div>
                             </div>
                             <div className="group-4">
-                                <div className="text-wrapper-3">Melbourne City <br /> Medical Centre</div>
+                                <div className="text-wrapper-3">Dr. Denis Melb</div>
                                 <p className="p">
-                                    68 Lonsdale Street Melbourne,<br />VIC 3000
+                                    General Practitioner, Male
                                 </p>
                                 <p className="p1">
-                                    Open Mon-Fri 8:00-5:00
+                                    Works Mon, Wed, Fri
                                 </p>
                             </div>
                         </div>
@@ -58,30 +58,30 @@ function ClinicGp() {
                                 <div className="overlap-group-2">
                                     <div className="div-wrapper">
                                         <div className="group-wrapper">
-                                            <div className="group-5" />
+                                            <div className="group-15" />
                                         </div>
                                     </div>
                                     <img src={star} className="star" alt="star" />
                                     <div className="group-3">
                                         <div className="text-wrapper-2">8/10</div>
-                                        
+
                                     </div>
                                 </div>
                             </div>
                             <div className="group-4">
-                                <div className="text-wrapper-3">Paramount <br /> Medical Clinic</div>
+                                <div className="text-wrapper-3">Dr. Meline Jeb</div>
                                 <p className="p">
-                                    Front St Melb VIC 3000
-                                    <br />
-                                    <br />
-                                    Open Mon-Fri 8:00-5:00
+                                    General Practitioner, Female
+                                </p>
+                                <p className="p1">
+                                    Works Mon-Thu
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h1 className="h-1">GP Clinic</h1>
-                <p className="text-wrapper-4">Click GP clinic you wish to book</p>
+                <h1 className="h-2">Add Doctor</h1>
+                <p className="text-wrapper-10">Click the Doctor you wish to book with</p>
                 <button className="arrow-overlap" onClick={back}>
                     <img src={arrow} className="arrow" alt="arrow" />
                 </button>
@@ -89,4 +89,4 @@ function ClinicGp() {
         </div>
     );
 };
-export default ClinicGp;
+export default GpDoctor;

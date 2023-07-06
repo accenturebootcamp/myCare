@@ -10,6 +10,8 @@ import KeyPad30 from "./pages/KeyPad30.js";
 import KeyPad300 from "./pages/KeyPad300.js";
 import KeyPad3000 from "./pages/KeyPad3000.js";
 import ClinicGp from "./pages/ClinicGp.js";
+import GpDoctor from "./pages/GpDoctor.js";
+
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
               <Route path="/KeyPad300" element={<KeyPad300 />} />
               <Route path="/KeyPad3000" element={<KeyPad3000 />} />
               <Route path="/ClinicGp" element={<ClinicGp />} />
+              <Route path="/GpDoctor" element={<GpDoctor />} />
+
 
 
 
