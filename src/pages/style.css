@@ -599,6 +599,15 @@
   width: 18px;
 }
 
+.text{
+  color: #000000;
+  font-family: "Lato-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .key-pad .arrow-wrapper {
   background-color: #56cb99;
   border-radius: 28px;

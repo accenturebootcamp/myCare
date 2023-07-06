@@ -4,18 +4,15 @@ import { useNavigate } from "react-router-dom";
 import "./style.css";
 
 function KeyPad() {
-    var postcode;
     // hook change location
     const navigate = useNavigate();
     // change route
     const routeChange = () => {
-        // goes to Add Service
-
-        navigate("/KeyPad3");
+        navigate("/");
     }
     const back = () => {
         // goes to Add Service
-        navigate("/BookingLocation");
+        navigate("/Services");
     }
     return (
         <div className="key-pad">
@@ -24,8 +21,8 @@ function KeyPad() {
                     Find GP Clinic by <br />
                     Post Code
                 </h1>
-                <button className="text-field"></button>
-                <button className="overlap">
+                <button className="text-field"><div className="text">3000</div></button>
+                <button className="overlap" onClick={routeChange}>
                     <div className="text-wrapper">Confirm</div>
                 </button>
                 <button className="overlap-group">
@@ -52,7 +49,7 @@ function KeyPad() {
                 <button className="overlap-7">
                     <div className="text-wrapper-2">0</div>
                 </button>
-                <button className="overlap-8" onClick={routeChange}>
+                <button className="overlap-8">
                     <div className="text-wrapper-6">3</div>
                 </button>
                 <button className="arrow-overlap" onClick={back}>
