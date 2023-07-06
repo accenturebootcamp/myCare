@@ -16,10 +16,10 @@ export const Popup = ({ text, closePopup }) => {
 
                 <div>
                     <p className="popup-text">
-                        <b>Clinic:</b> Melb Clinic
+                        <b>Clinic:</b> Melbourne City <br /> Medical Centre
                     </p>
                     <p className="popup-text">
-                    <b>Dotor:</b> Dr Melb
+                    <b>Dotor:</b> Dr. Denis Melb
                     </p>
                 </div>
                 <div>
