@@ -25,7 +25,7 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 50px;
+  top: 20px;
   white-space: nowrap;
 }
 
@@ -692,6 +692,20 @@
 }
 
 .p {
+  color: #6d6d6d;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  /* left: 67px; */
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 150px;
+  white-space: nowrap;
+}
+
+.p-5 {
   color: #6d6d6d;
   font-family: "Lato-Regular", Helvetica;
   font-size: 18px;
