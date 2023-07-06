@@ -4,23 +4,32 @@ import { useNavigate } from "react-router-dom";
 import "./style.css";
 
 function AddService() {
-        // hook change location
-        const navigate = useNavigate();
-        // change route
-        const routeChange = () => {
-            // goes to Add Service
-            navigate("/");
-        }
+    // hook change location
+    const navigate = useNavigate();
+    // change route
+    const routeChange = () => {
+        // goes to Add Service
+        navigate("/BookingLocation");
+    }
+    const edit = () => {
+        // goes to Add Service
+        navigate("/Medicine");
+    }
+    const back = () => {
+        // goes to Add Service
+        navigate("/Services");
+    }
     return (
         <div className="dashboard">
             <div className="div">
+                <div><p className="p-5">Click on a Healthcare service to book for</p></div>
                 <button className="overlap" onClick={routeChange}>
                     <div className="text-wrapper">General Practitioner</div>
                 </button>
                 <button className="overlap-group" onClick={routeChange}>
                     <div className="text-wrapper-2">Dentist</div>
                 </button>
-                <button className="div-wrapper" onClick={routeChange}>
+                <button className="div-wrapper" onClick={edit}>
                     <div className="text-wrapper-3">Chiropractor</div>
                 </button>
                 <button className="overlap-2" onClick={routeChange}>
@@ -30,9 +39,9 @@ function AddService() {
                     <div className="text-wrapper-5">Optometrist</div>
                 </button>
                 <h1 className="h-1">Services</h1>
-                <div className="arrow-wrapper" onClick={routeChange}>
+                <button className="arrow-overlap" onClick={back}>
                     <img src={arrow} className="arrow" alt="arrow" />
-                </div>
+                </button>
             </div>
         </div>
     );

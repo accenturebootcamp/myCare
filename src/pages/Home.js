@@ -29,11 +29,18 @@ function Home() {
         navigate("/Caregivers");
     }
 
+
+    const events = () => {
+        // goes to Add Service
+        navigate("/EventLocation");
+    }
+
     return (
 
-            <div className="home-page">
-              <div className="div">
 
+      
+            <div className="home-page">
+              <div className="div">               
                 <div className="group">
                     <button onClick={booking}className="overlap-group" >
                     <img className="img" alt="Vaccines black" src={medication} />
