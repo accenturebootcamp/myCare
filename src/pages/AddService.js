@@ -4,13 +4,17 @@ import { useNavigate } from "react-router-dom";
 import "./style.css";
 
 function AddService() {
-        // hook change location
-        const navigate = useNavigate();
-        // change route
-        const routeChange = () => {
-            // goes to Add Service
-            navigate("/");
-        }
+    // hook change location
+    const navigate = useNavigate();
+    // change route
+    const routeChange = () => {
+        // goes to Add Service
+        navigate("/");
+    }
+    const back = () => {
+        // goes to Add Service
+        navigate("/Services");
+    }
     return (
         <div className="dashboard">
             <div className="div">
@@ -30,9 +34,9 @@ function AddService() {
                     <div className="text-wrapper-5">Optometrist</div>
                 </button>
                 <h1 className="h-1">Services</h1>
-                <div className="arrow-wrapper" onClick={routeChange}>
+                <button className="arrow-wrapper" onClick={back}>
                     <img src={arrow} className="arrow" alt="arrow" />
-                </div>
+                </button>
             </div>
         </div>
     );

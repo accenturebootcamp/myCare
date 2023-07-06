@@ -15,6 +15,11 @@ function Services() {
         navigate("/AddService");
     }
 
+    const back = () => {
+        // goes to Add Service
+        navigate("/myCare");
+    }
+
     return (
         <div className="booking-service-page">
             <div className="div">
@@ -25,9 +30,9 @@ function Services() {
 
                     <div className="text-wrapper-2">Add Service</div>
                 </div>
-                <div className="overlap">
+                <button className="overlap" onClick={back}>
                     <img src={arrow} className="arrow" alt="arrow" />
-                </div>
+                </button>
             </div>
         </div>
     );

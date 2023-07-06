@@ -64,6 +64,7 @@
 
 .booking-service-page .overlap {
   background-color: #56cb99;
+  border-color: #56cb99;
   border-radius: 28px;
   height: 56px;
   left: 12px;
@@ -251,6 +252,7 @@
 
 .dashboard .arrow-wrapper {
   background-color: #56cb99;
+  border-color: #56cb99;
   border-radius: 28px;
   height: 56px;
   left: 10px;
