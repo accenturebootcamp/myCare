@@ -10,7 +10,9 @@ import celebration from '../icon/celebration_black_24dp_1.png';
 import calenderBooking from '../icon/edit_calendar_black_24dp_1.png';
 import caregiverIcon from '../icon/person_black_24dp_1.png';
 import medication from '../icon/vaccines_black_24dp_1.png';
+import heart from '../icon/Frame-9.png';
 import { useNavigate } from "react-router-dom";
+
 
 Amplify.configure(awsExports);
 function Home() {
@@ -21,54 +23,72 @@ function Home() {
         // goes to Add Service
         navigate("/Services");
     }
+
+    const caregivers = () => {
+        // goes to Add Service
+        navigate("/Caregivers");
+    }
+
     return (
-        <div className="App">
 
-            <header className="App-header">
-                {/*Authentication*/}
-               
-                        <main>
-                            <div className="home-page">
-                                
-                                <div className="div">
-                                    <div className="group">
-                                        <div className="div-2">
-                                            <img src={medication} className="img" alt="Vaccines black" />
-                                        </div>
-                                        <div className="text-wrapper">Medication</div>
-                                    </div>
-                                    <div className="overlap">
-                                        <img className="img-2" alt="Person black" src={caregiverIcon} />
-                                    </div>
-                                    <button onClick={booking} className="overlap-group">
-                                        <div className="div-2" />
-                                        <img className="img" alt="Edit calendar black" src={calenderBooking} />
-                                    </button>
-                                    <div className="text-wrapper-2">Home Caregiver</div>
-                                    <div className="text-wrapper-3">Bookings</div>
-                                    <div className="question-answer-wrapper">
-                                        <img src={chat} className="question-answer" alt="Question answer" />
-                                    </div>
-                                    <div className="text-wrapper-4">Chat</div>
-                                    <p className="what-would-you-like">
-                                        What would you like <br />
-                                        to do today?
-                                    </p>
-                                    <div className="group-2">
-                                        <div className="div-2">
-                                            <img className="img-2" alt="Celebration black" src={celebration} />
-                                        </div>
-                                        <div className="text-wrapper-5">Events</div>
-                                    </div>
-                                </div>
-                            </div>
+            <div className="home-page">
+              <div className="div">
 
+                <div className="group">
+                    <button onClick={booking}className="overlap-group" >
+                    <img className="img" alt="Vaccines black" src={medication} />
+                    </button>
+                    <div className="text-wrapper">Medication</div>
+                </div>
 
-                        </main>
+                <div className="overlap">
+                    <button onClick={caregivers}className="overlap-group" >
+                        
+                    <img className="img-2" alt="Person black" src={caregiverIcon} />
+                        
+                    </button>
+                </div>
                 
-            </header>
-        </div>
-    );
+                <div className="edit-calendar-black-wrapper">
+                    <button onClick={booking}className="overlap-group" >
+                        <img className="img" alt="Edit calendar black" src={calenderBooking} />
+                    </button>
+                </div>
+
+                <div className="text-wrapper-2">Caregivers</div>
+                <div className="text-wrapper-3">Bookings</div>
+
+                <div className="question-answer-wrapper">
+                    <button onClick={booking}className="chatbotButton" >
+                        <img className="question-answer" alt="Question answer" src={chat} />
+                    </button>
+                </div>
+        
+                  
+       
+
+                <div className="text-wrapper-4">Chat</div>
+                <h1 className="h-1">Hi, Cindy!</h1>
+
+                <p className="what-would-you-like">
+                  What would you like <br />
+                  to do today?
+                </p>
+
+                <div className="group-2">
+                    <button onClick={booking}className="overlap-group" >
+                    <img className="img-2" alt="Celebration black" src={celebration} />
+                    </button>
+                    <div className="text-wrapper-5">Events</div>
+                </div>
+
+                <div className="box">
+                        <img className="frame" alt="Frame" src={heart} />
+                </div>
+
+              </div>
+            </div>
+          );
 }
 
 export default Home;
