@@ -11,6 +11,10 @@ function AddService() {
         // goes to Add Service
         navigate("/BookingLocation");
     }
+    const edit = () => {
+        // goes to Add Service
+        navigate("/Medicine");
+    }
     const back = () => {
         // goes to Add Service
         navigate("/Services");
@@ -25,7 +29,7 @@ function AddService() {
                 <button className="overlap-group" onClick={routeChange}>
                     <div className="text-wrapper-2">Dentist</div>
                 </button>
-                <button className="div-wrapper" onClick={routeChange}>
+                <button className="div-wrapper" onClick={edit}>
                     <div className="text-wrapper-3">Chiropractor</div>
                 </button>
                 <button className="overlap-2" onClick={routeChange}>
