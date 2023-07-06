@@ -26,8 +26,7 @@ function Home() {
 
             <header className="App-header">
                 {/*Authentication*/}
-                <Authenticator>
-                    {({ signOut, user }) => (
+               
                         <main>
                             <div className="home-page">
                                 <button onClick={signOut}>Sign out</button>
@@ -66,9 +65,7 @@ function Home() {
 
 
                         </main>
-                    )}
-
-                </Authenticator>
+                
             </header>
         </div>
     );
