@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mycare-dev-210418-authRole",
+      "UnauthRoleArn": "arn:aws:iam::415592375531:role/amplify-mycare-dev-210418-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::415592375531:role/amplify-mycare-dev-210418-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mycare-dev-210418-deployment",
+      "UnauthRoleName": "amplify-mycare-dev-210418-unauthRole",
+      "StackName": "amplify-mycare-dev-210418",
+      "StackId": "arn:aws:cloudformation:us-east-1:415592375531:stack/amplify-mycare-dev-210418/b2a90250-1b23-11ee-b72b-0eefc0b036ef",
+      "AmplifyAppId": "dez9e7biyk8qd"
+    }
+  },
+  "auth": {
+    "mycare057232a3": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mycare-dev-210418-deployment/amplify-cfn-templates/auth/mycare057232a3-cloudformation-template.json",
+        "logicalId": "authmycare057232a3"
+      },
+      "lastPushTimeStamp": "2023-07-05T11:12:31.258Z",
+      "output": {
+        "UserPoolId": "us-east-1_462COERcJ",
+        "AppClientIDWeb": "6vmlja09b16n8hof450kqto4j9",
+        "AppClientID": "494s64h8mnej9jek98joh6q4m1",
+        "IdentityPoolId": "us-east-1:4f6a40ba-074a-4c38-9b2c-9f425a1d47bb",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:415592375531:userpool/us-east-1_462COERcJ",
+        "IdentityPoolName": "mycare057232a3_identitypool_057232a3__dev",
+        "UserPoolName": "mycare057232a3_userpool_057232a3"
+      },
+      "lastPushDirHash": "1ydcjmLjb1NCeqSs8NyezJvZIPw="
+    }
+  }
+}
