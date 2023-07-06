@@ -1,44 +1,36 @@
-import React, { useState } from "react";
+import React from "react";
 import arrow from './arrow.svg';
 import star from './star.svg';
 
 import { useNavigate } from "react-router-dom";
 import "./style.css";
-import { Popup } from "./PopUp.js";
 
-function GpDoctor() {
+function SaveGP() {
     // hook change location
     const navigate = useNavigate();
     // change route
-    const showAlert = () => {
-        alert("I'm an alert");
+    const routeChange = () => {
+        // goes to Add Service
+        navigate("/BookingLocation");
     }
-    // const routeChange = () => {
-    //     // goes to Add Service
-    //     navigate("/SaveGP");
-    // }
     const back = () => {
         // goes to Add Service
-        navigate("/ClinicGp");
+        navigate("/GpDoctor");
     }
-    const [open, setOpen] = useState(false);
     return (
         <div className="booking-GP-clinic">
-
             <div className="div">
-                
                 <div className="overlap">
                     <div className="overlap-group">
+                        {/* <Link className="rectangle" to="/booking-gp-clinic" /> */}
                         <div className="text-wrapper">Post Code 3000</div>
                     </div>
                     <div className="group">
                         <div className="overlap-group-2">
                             <div className="div-wrapper">
                                 <div className="overlap-group-2">
-
                                     <div className="div-wrapper">
-                                        <div className="group-wrapper" onClick={() => setOpen(true)}>
-                                            
+                                        <div className="group-wrapper" onClick={routeChange}>
                                             <div className="group-12" />
                                         </div>
                                     </div>
@@ -60,8 +52,7 @@ function GpDoctor() {
                             </div>
                         </div>
                     </div>
-
-                    <div className="overlap-wrapper" onClick={() => setOpen(true)}>
+                    <div className="overlap-wrapper" onClick={routeChange}>
                         <div className="overlap-group-2">
                             <div className="div-wrapper">
                                 <div className="overlap-group-2">
@@ -94,9 +85,8 @@ function GpDoctor() {
                 <button className="arrow-overlap" onClick={back}>
                     <img src={arrow} className="arrow" alt="arrow" />
                 </button>
-                {open ? <Popup text="Saving GP" closePopup={() => setOpen(false)} /> : null}
             </div>
         </div>
     );
 };
-export default GpDoctor;
+export default SaveGP;
