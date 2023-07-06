@@ -1602,3 +1602,25 @@
     top: 13px;
     width: 28px;
   }
+
+  /* chatbot */
+
+  
+  .box .ellipse {
+    background-color: #56cb99;
+    border-color: #56cb99;
+    border-radius: 28px;
+    height: 56px;
+    left: 320px;
+    position: absolute;
+    top: 780px;
+    width: 56px;
+  }
+  
+  .chat {
+    height: 29px;
+    left: 334px;
+    position: absolute;
+    top: 795px;
+    width: 28px;
+}

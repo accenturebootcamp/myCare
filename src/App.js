@@ -14,7 +14,7 @@ import GpDoctor from "./pages/GpDoctor.js";
 import SelectDate from "./pages/SelectDate.js";
 import ServicesGP from "./pages/ServicesGP.js";
 import SelectTime from "./pages/SelectTime.js";
-
+import Chatbot from "./pages/Chatbot.js";
 
 
 function App() {
@@ -43,6 +43,7 @@ function App() {
             </Routes>
           </div>
         </BrowserRouter>
+        <Chatbot/>
     </div>
   )
 }
