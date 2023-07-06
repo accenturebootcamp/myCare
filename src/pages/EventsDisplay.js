@@ -15,7 +15,7 @@ function EventsDisplay() {
     // change route
     const routeChange = () => {
         // goes to Add Service
-        navigate("/EventsDisplay");
+        navigate("/EventGolf");
     }
     const back = () => {
         // goes to Add Service
@@ -25,8 +25,8 @@ function EventsDisplay() {
         <div className="events">
             <div className="div">
                 <div className="overlap">
-                    <div className="frame">
-                        <div className="text-wrapper">Senior Golfers Cup</div>
+                    <div className="frame" onClick={routeChange}>
+                        <div className="text-wrapper" >Senior Golfers Cup</div>
                         <img src={golf} className="golf" alt="golf" />
                         <p className="p">SAT, JUL 8 AT 1PM</p>
                     </div>

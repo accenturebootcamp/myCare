@@ -23,6 +23,8 @@ import Chatbot from "./pages/Chatbot.js";
 import EventLocation from "./pages/EventLocation.js";
 import Types from "./pages/Types.js";
 import EventsDisplay from "./pages/EventsDisplay.js";
+import EventGolf from "./pages/EventGolf.js";
+
 
 
 
@@ -56,6 +58,8 @@ function App() {
               <Route path="/EventLocation" element={<EventLocation />} />
               <Route path="/Types" element={<Types />} />
               <Route path="/EventsDisplay" element={<EventsDisplay />} />
+              <Route path="/EventGolf" element={<EventGolf />} />
+
 
 
 
