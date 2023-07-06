@@ -9,7 +9,7 @@ function AddService() {
     // change route
     const routeChange = () => {
         // goes to Add Service
-        navigate("/");
+        navigate("/BookingLocation");
     }
     const back = () => {
         // goes to Add Service
@@ -34,7 +34,7 @@ function AddService() {
                     <div className="text-wrapper-5">Optometrist</div>
                 </button>
                 <h1 className="h-1">Services</h1>
-                <button className="arrow-wrapper" onClick={back}>
+                <button className="arrow-overlap" onClick={back}>
                     <img src={arrow} className="arrow" alt="arrow" />
                 </button>
             </div>

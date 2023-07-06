@@ -62,7 +62,7 @@
   top: 11px;
 }
 
-.booking-service-page .overlap {
+.arrow-overlap {
   background-color: #56cb99;
   border-color: #56cb99;
   border-radius: 28px;
@@ -73,7 +73,7 @@
   width: 56px;
 }
 
-.booking-service-page .arrow {
+.arrow {
   height: 29px;
   left: 14px;
   position: absolute;
@@ -250,21 +250,102 @@
   white-space: nowrap;
 }
 
-.dashboard .arrow-wrapper {
-  background-color: #56cb99;
-  border-color: #56cb99;
-  border-radius: 28px;
-  height: 56px;
-  left: 10px;
-  position: absolute;
-  top: 105px;
-  width: 56px;
+/* Booking Locations */
+
+.booking-location {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-.dashboard .arrow {
-  height: 29px;
-  left: 14px;
+.booking-location .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 852px;
+  position: relative;
+  width: 393px;
+}
+
+.booking-location .text-wrapper {
+  color: #000000;
+  font-family: "Lato-Bold", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  left: 127px;
+  letter-spacing: 0;
+  line-height: normal;
   position: absolute;
-  top: 13px;
-  width: 28px;
+  top: 91px;
+  white-space: nowrap;
+}
+
+.booking-location .overlap {
+  border-radius: 10px;
+  height: 200px;
+  left: 74px;
+  position: absolute;
+  top: 323px;
+  width: 246px;
+}
+
+.booking-location .rectangle {
+  background-color: #56cb99;
+  border-radius: 10px;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 246px;
+}
+
+.booking-location .text-wrapper-2 {
+  color: #000000;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  left: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 82px;
+}
+
+.booking-location .overlap-group {
+  background-color: #56cb99;
+  border-radius: 10px;
+  height: 200px;
+  left: 74px;
+  position: absolute;
+  top: 586px;
+  width: 246px;
+}
+
+.booking-location .text-wrapper-3 {
+  color: #000000;
+  font-family: "Lato-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  left: 75px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 82px;
+}
+
+.booking-location .p {
+  color: #6d6d6d;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 280px;
+  white-space: nowrap;
 }
