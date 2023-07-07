@@ -144,6 +144,8 @@
     position: absolute;
     top: 33px;
     width: 152px;
+    white-space:normal;
+    
   }
   
   .home-caregivers-list .img {

@@ -6,7 +6,8 @@ import AddService from "./pages/AddService.js";
 
 import Caregivers from "./pages/Caregivers.js";
 import HomeServices from "./pages/HomeServices.js";
-import Maxadams from "./pages/Maxadams.js";
+import CaregiverInfo from "./pages/CaregiverInfo.js";
+
 import CaregiverBooked from "./pages/CaregiverBooked.js";
 
 import BookingLocation from "./pages/BookingLocation.js";
@@ -50,8 +51,9 @@ function App() {
               <Route path="/AddService" element={<AddService />} />
 
               <Route path="/HomeServices" element={<HomeServices />} />
-              <Route path="/Maxadams" element={<Maxadams />} />
+   
               <Route path="/CaregiverBooked" element={<CaregiverBooked />} />
+              <Route path="/CaregiverInfo" element={<CaregiverInfo />}/>
 
               <Route path="/BookingLocation" element={<BookingLocation />} />
               <Route path="/KeyPad" element={<KeyPad />} />

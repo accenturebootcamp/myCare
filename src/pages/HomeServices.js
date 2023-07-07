@@ -5,6 +5,7 @@ import vectorImg2 from '../icon/vector-1.svg';
 import vectorImg from '../icon/vector.svg';
 import fav from "../icon/favorite-fill0-wght400-grad0-opsz48-1.png";
 import { useNavigate } from "react-router-dom";
+import CaregiverInfo from "./CaregiverInfo";
 
 function HomeServices() {
         // hook change location
@@ -15,9 +16,9 @@ function HomeServices() {
             navigate("/Caregivers");
         }
 
-        const maxadams= () => {
+        const caregiverInfo= () => {
             // goes to Add Service
-            navigate("/Maxadams");
+            navigate("/CaregiverInfo");
         }
 
 
@@ -41,12 +42,14 @@ function HomeServices() {
                   </div>
                 </div>
               </div>
+              
               <div className="group-4">
                 <div className="text-wrapper-3">Alice Springs</div>
-                <p className="p">
+                <p className="p" >
                   Hello! I am a passionate and dedicated caregiver committed to making a positive impact on...
                 </p>
               </div>
+
               <img className="img" alt="Vector" src={vectorImg} />
               <div className="text-wrapper-4">15 mins away...</div>
             </div>
@@ -79,7 +82,7 @@ function HomeServices() {
             </div>
             <img className="favorite" alt="Favorite" src= {fav}/>
           </div>
-          <div className="overlap-group-wrapper" onClick={maxadams}>
+          <div className="overlap-group-wrapper" onClick={caregiverInfo}>
             <div className="overlap-group">
               <div className="div-wrapper">
                 <div className="overlap-group-2">
