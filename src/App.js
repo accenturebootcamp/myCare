@@ -6,8 +6,7 @@ import AddService from "./pages/AddService.js";
 
 import Caregivers from "./pages/Caregivers.js";
 import HomeServices from "./pages/HomeServices.js";
-import CaregiverInfo from "./pages/CaregiverInfo.js";
-
+import Maxadams from "./pages/Maxadams.js";
 import CaregiverBooked from "./pages/CaregiverBooked.js";
 
 import BookingLocation from "./pages/BookingLocation.js";

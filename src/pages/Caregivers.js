@@ -2,6 +2,7 @@ import React from "react";
 import arrow from './arrow.svg';
 import { useNavigate } from "react-router-dom";
 import "./Caregiver.css";
+import Home from "./Home";
 
 function AddService() {
         // hook change location
