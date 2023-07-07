@@ -34,30 +34,34 @@ function Home() {
         // goes to Add Service
         navigate("/EventLocation");
     }
+    const meds = () => {
+        // goes to Add Service
+        navigate("/Medicine");
+    }
 
     return (
 
 
-      
-            <div className="home-page">
-              <div className="div">               
+
+        <div className="home-page">
+            <div className="div">
                 <div className="group">
-                    <button onClick={booking}className="overlap-group" >
-                    <img className="img" alt="Vaccines black" src={medication} />
+                    <button onClick={meds} className="overlap-group" >
+                        <img className="img" alt="Vaccines black" src={medication} />
                     </button>
                     <div className="text-wrapper">Medication</div>
                 </div>
 
                 <div className="overlap">
-                    <button onClick={caregivers}className="overlap-group" >
-                        
-                    <img className="img-2" alt="Person black" src={caregiverIcon} />
-                        
+                    <button onClick={caregivers} className="overlap-group" >
+
+                        <img className="img-2" alt="Person black" src={caregiverIcon} />
+
                     </button>
                 </div>
-                
+
                 <div className="edit-calendar-black-wrapper">
-                    <button onClick={booking}className="overlap-group" >
+                    <button onClick={booking} className="overlap-group" >
                         <img className="img" alt="Edit calendar black" src={calenderBooking} />
                     </button>
                 </div>
@@ -66,36 +70,34 @@ function Home() {
                 <div className="text-wrapper-3">Bookings</div>
 
                 <div className="question-answer-wrapper">
-                    <button onClick={booking}className="chatbotButton" >
+                    <button onClick={booking} className="chatbotButton" >
                         <img className="question-answer" alt="Question answer" src={chat} />
                     </button>
                 </div>
-        
-                  
-       
+
+
+
 
                 <div className="text-wrapper-4">Chat</div>
                 <h1 className="h-1">Hi, Cindy!</h1>
 
                 <p className="what-would-you-like">
-                  What would you like <br />
-                  to do today?
+                    What would you like <br />
+                    to do today?
                 </p>
 
-                <div className="group-2">
-                    <button onClick={booking}className="overlap-group" >
-                    <img className="img-2" alt="Celebration black" src={celebration} />
+                <div className="group-2" onClick={events}>
+                    <button onClick={booking} className="overlap-group" >
+                        <img className="img-2" alt="Celebration black" src={celebration} />
                     </button>
                     <div className="text-wrapper-5">Events</div>
                 </div>
 
-                <div className="box">
-                        <img className="frame" alt="Frame" src={heart} />
-                </div>
+                <img className="heart" alt="Frame" src={heart} />
 
-              </div>
             </div>
-          );
+        </div>
+    );
 }
 
 export default Home;

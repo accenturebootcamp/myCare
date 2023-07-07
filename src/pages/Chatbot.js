@@ -1,15 +1,18 @@
 import React from "react";
 import chat from './chat.svg';
+import heart from '../icon/Frame-9.png';
 
 function Chatbot() {
     return (
-        <div className="box">
-            <div className="ellipse-wrapper">
+        <div>
+            <div className="circle">
+            <img className="heart" alt="Frame" src={heart} />
 
-                <div className="ellipse" />
                 <img src={chat} className="chat" alt="chat" />
             </div>
         </div>
+
+
     )
 }
 
