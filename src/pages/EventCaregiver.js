@@ -9,9 +9,14 @@ function EventCaregiver() {
     // hook change location
     const navigate = useNavigate();
     // change route
-    const keyPad = () => {
+    const caregiver = () => {
         // goes to Add Service
-        navigate("/KeyPadEvent");
+        navigate("/Caregivers");
+    }
+     // change route
+     const home = () => {
+        // goes to Add Service
+        navigate("/");
     }
     const back = () => {
         // goes to Add Service
@@ -21,10 +26,10 @@ function EventCaregiver() {
         <div className="caregivers-needed">
             <div className="div">
                 <div className="overlap">
-                    <div className="overlap-group">
+                    <div className="overlap-group" onClick={home}>
                         <div className="text-wrapper">No</div>
                     </div>
-                    <div className="div-wrapper">
+                    <div className="div-wrapper" onClick={caregiver}>
                         <div className="text-wrapper-2">Yes</div>
                     </div>
                     <div className="frame">
