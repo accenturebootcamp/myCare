@@ -1,178 +1,178 @@
-.home-caregivers {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .home-caregivers .div {
-    background-color: #ffffff;
-    border: 1px none;
-    height: 852px;
-    position: relative;
-    width: 393px;
-  }
-  
-  .home-caregivers .overlap {
-    height: 297px;
-    left: 0;
-    position: absolute;
-    top: -38px;
-    width: 393px;
-  }
-  
-  .home-caregivers .rectangle {
-    background-color: #56cb99;
-    height: 222px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 393px;
-  }
-  
-  .home-caregivers .ellipse {
-    height: 150px;
-    left: 122px;
-    object-fit: cover;
-    position: absolute;
-    top: 147px;
-    width: 150px;
-  }
-  
-  .home-caregivers .ellipse-2 {
-    background-color: #ffffff;
-    border-radius: 28px;
-    height: 56px;
-    left: 10px;
-    position: absolute;
-    top: 122px;
-    width: 56px;
-  }
-  
-  .home-caregivers .arrow {
-    height: 29px;
-    left: 24px;
-    position: absolute;
-    top: 135px;
-    width: 28px;
-  }
-  
-  .home-caregivers .text-wrapper {
-    color: #000000;
-    font-family: "Lato-Bold", Helvetica;
-    font-size: 40px;
-    font-weight: 700;
-    left: 45px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 266px;
-    white-space: nowrap;
-    width: 304px;
-  }
-  
-  .home-caregivers .overlap-group {
-    height: 416px;
-    left: 51px;
-    position: absolute;
-    top: 388px;
-    width: 298px;
-  }
-  
-  .home-caregivers .rectangle-2 {
-    background-color: #56cb99;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px #00000040;
-    height: 89px;
-    left: 0;
-    position: absolute;
-    top: 327px;
-    width: 292px;
-  }
-  
-  .home-caregivers .text-wrapper-2 {
-    color: #000000;
-    font-family: "Lato-SemiBold", Helvetica;
-    font-size: 30px;
-    font-weight: 600;
-    height: 57px;
-    left: 74px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 342px;
-    width: 147px;
-  }
-  
-  .home-caregivers .greetings-my-name-is {
-    color: #000000;
-    font-family: "Lato-Regular", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-shadow: 0px 4px 4px #00000040;
-    top: 0;
-    width: 298px;
-  }
-  
-  .home-caregivers .span {
-    color: #000000;
-    font-family: "Lato-Regular", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 0;
-  }
-  
-  .home-caregivers .text-wrapper-3 {
-    font-family: "Lato-ExtraLight", Helvetica;
-    font-weight: 200;
-  }
-  
-  .home-caregivers .text-wrapper-4 {
-    font-family: "Lato-Medium", Helvetica;
-    font-weight: 500;
-  }
-  
-  .home-caregivers .text-wrapper-5 {
-    font-family: "Lato-Light", Helvetica;
-    font-weight: 300;
-  }
-  
-  .home-caregivers .overlap-2 {
-    height: 54px;
-    left: 93px;
-    position: absolute;
-    top: 310px;
-    width: 214px;
-  }
-  
-  .home-caregivers .vector {
-    height: 31px;
-    left: 0;
-    position: absolute;
-    top: 12px;
-    width: 25px;
-  }
-  
-  .home-caregivers .text-wrapper-6 {
-    color: #000000;
-    font-family: "Lato-Bold", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    height: 54px;
-    left: 6px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    text-decoration: underline;
-    top: 0;
-    width: 208px;
-  }
-  
+.home-caregiversInfo {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-caregiversInfo .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 852px;
+  position: relative;
+  width: 393px;
+}
+
+.home-caregiversInfo .overlap {
+  height: 297px;
+  left: 0;
+  position: absolute;
+  top: -38px;
+  width: 393px;
+}
+
+.home-caregiversInfo .rectangle {
+  background-color: #56cb99;
+  height: 222px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 393px;
+}
+
+.home-caregiversInfo .ellipse {
+  height: 150px;
+  left: 122px;
+  object-fit: cover;
+  position: absolute;
+  top: 120px;
+  width: 150px;
+  background-color: transparent;
+}
+
+.home-caregiversInfo .ellipse-2 {
+  background-color: #ffffff;
+  border-radius: 28px;
+  height: 56px;
+  left: 10px;
+  position: absolute;
+  top: 122px;
+  width: 56px;
+}
+
+.home-caregiversInfo .arrow {
+  height: 29px;
+  left: 24px;
+  position: absolute;
+  top: 135px;
+  width: 28px;
+}
+
+.home-caregiversInfo .text-wrapper {
+  color: #000000;
+  font-family: "Lato-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 210px;
+  white-space: nowrap;
+  width: 304px;
+}
+
+.home-caregiversInfo .overlap-group {
+  height: 416px;
+  left: 51px;
+  position: absolute;
+  top: 388px;
+  width: 298px;
+}
+
+.home-caregiversInfo .rectangle-2 {
+  background-color: #56cb99;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 327px;
+  width: 292px;
+}
+
+.home-caregiversInfo .text-wrapper-2 {
+  color: #000000;
+  font-family: "Lato-SemiBold", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  height: 57px;
+  left: 74px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 355px;
+  width: 147px;
+}
+
+.home-caregiversInfo .greetings-my-name-is {
+  color: #000000;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  width: 298px;
+}
+
+.home-caregiversInfo .span {
+  color: #000000;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.home-caregiversInfo .text-wrapper-3 {
+  font-family: "Lato-ExtraLight", Helvetica;
+  font-weight: 200;
+}
+
+.home-caregiversInfo .text-wrapper-4 {
+  font-family: "Lato-Medium", Helvetica;
+  font-weight: 500;
+}
+
+.home-caregiversInfo .text-wrapper-5 {
+  font-family: "Lato-Light", Helvetica;
+  font-weight: 300;
+}
+
+.home-caregiversInfo .overlap-2 {
+  height: 54px;
+  left: 93px;
+  position: absolute;
+  top: 310px;
+  width: 214px;
+}
+
+.home-caregiversInfo .vector {
+  height: 31px;
+  left: 0;
+  position: absolute;
+  top: -5px;
+  width: 25px;
+}
+
+.home-caregiversInfo .text-wrapper-6 {
+  color: #000000;
+  font-family: "Lato-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 54px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 0;
+  width: 208px;
+}
