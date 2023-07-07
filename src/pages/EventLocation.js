@@ -22,7 +22,7 @@ function EventLocation() {
     return (
         <div className="booking-location">
             <div className="div">
-                <h1 className="text-wrapper">GP Clinic</h1>
+                <h1 className="text-wrapper">Events</h1>
                 <button className="overlap" onClick={keyPad}>
                     <div className="rectangle" />
                     <div className="text-wrapper-2">Post Code</div>
