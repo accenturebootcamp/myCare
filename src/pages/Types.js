@@ -26,7 +26,7 @@ function Types() {
                     <div className="text-wrapper1">Dancing</div>
                 </button>
                 <button className="div-wrapper" onClick={routeChange}>
-                    <div className="text-wrapper1">Coffe</div>
+                    <div className="text-wrapper1">Coffee</div>
                 </button>
                 <button className="overlap-2" onClick={routeChange}>
                     <div className="text-wrapper1">Chess</div>

@@ -18,7 +18,7 @@ function KeyPad3() {
         <div className="key-pad">
             <div className="div">
                 <h1 className="find-GP-clinic-by">
-                    Find GP Clinic by <br />
+                    Find Events by <br />
                     Post Code
                 </h1>
                 <div><p className="p">Enter post code with the key pad <br/>by tapping the number</p></div>
