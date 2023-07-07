@@ -12,7 +12,7 @@ function CaregiverInfo() {
   const navigate = useNavigate();
   // change route
   const homeroute = () => {
-      // goes to Add Service
+
       navigate("/");
   }
 
