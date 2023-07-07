@@ -8,9 +8,9 @@ function CaregiverBooked(){
 
     const navigate = useNavigate();
 
-    const routehome = () => {
+    const HomeService = () => {
         // goes to Add Service
-        navigate("/");
+        navigate("/HomeServices");
     }
 
   return (
@@ -19,8 +19,8 @@ function CaregiverBooked(){
         <div className="overlap">
           <div className="rectangle" />
           <img className="group" alt="Group" src={adam}/>
-          <div className="ellipse" onClick={HomeService} onClick={routehome}/>
-          <img className="arrow" alt="Arrow" src={arrow} onClick={routehome} />
+          <div className="ellipse" onClick={HomeService}/>
+          <img className="arrow" alt="Arrow" src={arrow} onClick={HomeService} />
         </div>
         <h1 className="text-wrapper">Max Adams</h1>
         <div className="group-wrapper">
