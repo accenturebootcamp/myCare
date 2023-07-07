@@ -17,7 +17,7 @@ function Services() {
 
     const back = () => {
         // goes to Add Service
-        navigate("/myCare");
+        navigate("/");
     }
 
     return (

@@ -39,52 +39,56 @@ import AspirinEdit from "./pages/AspirinEdit.js";
 
 
 function App() {
-  
+
   return (
+
     <div>
-        <BrowserRouter>
-          <div>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/Caregivers" element={<Caregivers />} />
-              <Route path="/Services" element={<Service />} />
-              <Route path="/AddService" element={<AddService />} />
+      {/* <Chatbot /> */}
 
-              <Route path="/HomeServices" element={<HomeServices />} />
-   
-              <Route path="/CaregiverBooked" element={<CaregiverBooked />} />
-              <Route path="/CaregiverInfo" element={<CaregiverInfo />}/>
+      <BrowserRouter>
+        <div>
 
-              <Route path="/BookingLocation" element={<BookingLocation />} />
-              <Route path="/KeyPad" element={<KeyPad />} />
-              <Route path="/KeyPad3" element={<KeyPad3 />} />
-              <Route path="/KeyPad30" element={<KeyPad30 />} />
-              <Route path="/KeyPad300" element={<KeyPad300 />} />
-              <Route path="/KeyPad3000" element={<KeyPad3000 />} />
-              <Route path="/KeyPadEvent" element={<KeyPadEvent />} />
-              <Route path="/KeyPad3Event" element={<KeyPad3Event />} />
-              <Route path="/KeyPad30Event" element={<KeyPad30Event />} />
-              <Route path="/KeyPad300Event" element={<KeyPad300Event />} />
-              <Route path="/KeyPad3000Event" element={<KeyPad3000Event />} />
-              <Route path="/ClinicGp" element={<ClinicGp />} />
-              <Route path="/GpDoctor" element={<GpDoctor />} />
-              <Route path="/SelectDate" element={<SelectDate />} />
-              <Route path="/SelectTime" element={<SelectTime />} />
-              <Route path="/ServicesGP" element={<ServicesGP />} />
-              <Route path="/EventLocation" element={<EventLocation />} />
-              <Route path="/Types" element={<Types />} />
-              <Route path="/EventsDisplay" element={<EventsDisplay />} />
-              <Route path="/EventGolf" element={<EventGolf />} />
-              <Route path="/EventCaregiver" element={<EventCaregiver />} />
-              <Route path="/Medicine" element={<Medicine />} />
-              <Route path="/EditMedicine" element={<EditMedicine />} />
-              <Route path="/AspirinEdit" element={<AspirinEdit />} />
+          <Routes>
+
+            <Route path="/" element={<Home />} />
+            <Route path="/Caregivers" element={<Caregivers />} />
+            <Route path="/Services" element={<Service />} />
+            <Route path="/AddService" element={<AddService />} />
+
+            <Route path="/HomeServices" element={<HomeServices />} />
+            <Route path="/Maxadams" element={<Maxadams />} />
+            <Route path="/CaregiverBooked" element={<CaregiverBooked />} />
+
+            <Route path="/BookingLocation" element={<BookingLocation />} />
+            <Route path="/KeyPad" element={<KeyPad />} />
+            <Route path="/KeyPad3" element={<KeyPad3 />} />
+            <Route path="/KeyPad30" element={<KeyPad30 />} />
+            <Route path="/KeyPad300" element={<KeyPad300 />} />
+            <Route path="/KeyPad3000" element={<KeyPad3000 />} />
+            <Route path="/KeyPadEvent" element={<KeyPadEvent />} />
+            <Route path="/KeyPad3Event" element={<KeyPad3Event />} />
+            <Route path="/KeyPad30Event" element={<KeyPad30Event />} />
+            <Route path="/KeyPad300Event" element={<KeyPad300Event />} />
+            <Route path="/KeyPad3000Event" element={<KeyPad3000Event />} />
+            <Route path="/ClinicGp" element={<ClinicGp />} />
+            <Route path="/GpDoctor" element={<GpDoctor />} />
+            <Route path="/SelectDate" element={<SelectDate />} />
+            <Route path="/SelectTime" element={<SelectTime />} />
+            <Route path="/ServicesGP" element={<ServicesGP />} />
+            <Route path="/EventLocation" element={<EventLocation />} />
+            <Route path="/Types" element={<Types />} />
+            <Route path="/EventsDisplay" element={<EventsDisplay />} />
+            <Route path="/EventGolf" element={<EventGolf />} />
+            <Route path="/EventCaregiver" element={<EventCaregiver />} />
+            <Route path="/Medicine" element={<Medicine />} />
+            <Route path="/EditMedicine" element={<EditMedicine />} />
+            <Route path="/AspirinEdit" element={<AspirinEdit />} />
 
 
-            </Routes>
-          </div>
-        </BrowserRouter>
-        <Chatbot/>
+          </Routes>
+        </div>
+      </BrowserRouter>
+
     </div>
   )
 }

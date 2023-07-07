@@ -1630,7 +1630,7 @@
   /* chatbot */
 
   
-  .box .ellipse {
+  .circle {
     background-color: #56cb99;
     border-color: #56cb99;
     border-radius: 28px;
@@ -1644,7 +1644,7 @@
   .chat {
     height: 29px;
     left: 334px;
-    position: absolute;
+    position: relative;
     top: 795px;
     width: 28px;
 }
@@ -2892,4 +2892,11 @@
   position: absolute;
   text-align: center;
   top: 8px;
+}
+
+.heart {
+  box-sizing: border-box;
+  right: 30px;
+  position: absolute;
+  top: 30px;
 }
