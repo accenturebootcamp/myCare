@@ -5,6 +5,7 @@ import adam from "../icon/ellipse-adam.png";
 import pinpoint from "../icon/vector.svg";
 import arrow from './arrow.svg';
 import HomeServices from "./HomeServices";
+import CaregiverBooked from "./CaregiverBooked";
 
 function CaregiverInfo() {
   // hook change location

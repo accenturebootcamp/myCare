@@ -2,6 +2,8 @@ import React from "react";
 import "./CaregiverBooked.css";
 import arrow from './arrow.svg';
 import adam from '../icon/group-7.png';
+import clock from '../icon/clock.svg';
+import call from '../icon/call-fill0-wght400-grad0-opsz48-1.svg';
 import { useNavigate } from "react-router-dom";
 
 function CaregiverBooked(){
@@ -12,6 +14,10 @@ function CaregiverBooked(){
         // goes to Add Service
         navigate("/");
     }
+    const homeservice = () => {
+      // goes to Add Service
+      navigate("/HomeServices");
+  }
 
   return (
     <div className="home-caregivers">
@@ -19,7 +25,7 @@ function CaregiverBooked(){
         <div className="overlap">
           <div className="rectangle" />
           <img className="group" alt="Group" src={adam}/>
-          <div className="ellipse" onClick={HomeService} onClick={routehome}/>
+          <div className="ellipse" onClick={routehome} />
           <img className="arrow" alt="Arrow" src={arrow} onClick={routehome} />
         </div>
         <h1 className="text-wrapper">Max Adams</h1>
@@ -31,13 +37,13 @@ function CaregiverBooked(){
         <div className="rectangle-wrapper">
           <div className="rectangle-2" />
         </div>
-        <img className="vector" alt="Vector" src="vector.svg" />
+        <img className="vector" alt="Vector" src={clock} />
         <div className="text-wrapper-3">Approx. 50 minutes wait</div>
         <div className="group-2">
           <div className="overlap-group-wrapper">
             <div className="overlap-group">
               <div className="text-wrapper-4">Call Max</div>
-              <img className="call" alt="Call" src="call-fill0-wght400-grad0-opsz48-1.svg" />
+              <img className="call" alt="Call" src= {call}/>
             </div>
           </div>
         </div>
